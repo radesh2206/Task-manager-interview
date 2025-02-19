@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchTasks } from "../features/tasks/taskActions";
-import { RootState } from "../store";
 import TaskItem from "./TaskItem";
 import TaskFilter from "./TaskFilter";
+import { RootState } from "../store";
 
 const TaskList: React.FC = () => {
   const dispatch = useDispatch();
